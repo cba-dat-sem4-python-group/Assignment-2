@@ -1,10 +1,13 @@
 import urllib.request as req
 import csv
+from os import path
 
 def get_dict_from_url_csv(url):
-    
     if url.split('/')[-1][-3:] == 'csv':
-        file = req.urlretrieve(url, url.split('/')[-1])[0]
+        if not path.isfile(url.split('/')[-1]):
+            file = req.urlretrieve(url, url.split('/')[-1])[0]
+        else:
+            file = url.split('/')[-1]
 
         stat = {}
         with open(file) as file:
