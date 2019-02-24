@@ -1,4 +1,5 @@
 # Assignment 2: Plottings
+Link to mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cba-dat-sem4-python-group/Assignment-2/master?filepath=Assignment-2.ipynb)
 
 This assignment is about plotting.
 
