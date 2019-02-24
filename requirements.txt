@@ -9,7 +9,7 @@ ipykernel==5.1.0
 ipython==7.2.0
 ipython-genutils==0.2.0
 ipywidgets==7.4.2
-folium=0.7.0
+folium==0.7.0
 jdcal==1.4
 jedi==0.13.2
 Jinja2==2.10
